@@ -80,16 +80,12 @@ while (1):
 
     if eng == "":
         break
-
     if len(engkor_dict) == 0:
         print("사전이 비어 있습니다.")
-
     if eng in engkor_dict:
         print(eng, ":", engkor_dict[eng])
-
     else:
         print(eng, "단어가 사전에 없습니다, 사전에 추가합니다.")
-
     kor = input("kor:")
 
     engkor_dict[eng] = kor
@@ -107,10 +103,8 @@ import math
 
 def ceil(x):
     return math.ceil(x)
-
 def floor(x):
     return math.floor(x)
-
 def trunc(x):
     return math.trunc(x)
 
