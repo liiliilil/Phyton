@@ -9,7 +9,7 @@ print("마지막 문자:", a[len(a) - 1])
 a = list(input("문자열:"))
 
 for i in range(len(a)):
-    print(st[i],end="")
+    print(a[i],end="")
 
 print()
 
