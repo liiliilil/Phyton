@@ -40,19 +40,19 @@ items = {"라면": 650, "우유": 1100, "콜라": 1200, "캔커피": 500, "과�
 sum = 0
 
 while True:
-    tem = input("제품명:")
+    a = input("제품명:")
 
     if tem == "":
         break
-    elif tem == "라면":
+    elif a == "라면":
         sum += items["라면"]
-    elif tem == "우유":
+    elif a == "우유":
         sum += items["우유"]
-    elif tem == "콜라":
+    elif a == "콜라":
         sum += items["콜라"]
-    elif tem == "캔커피":
+    elif a == "캔커피":
         sum += items["캔커피"]
-    elif tem == "과자":
+    elif a == "과자":
         sum += items["과자"]
 
 print("total:", sum)
