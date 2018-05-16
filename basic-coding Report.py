@@ -95,7 +95,7 @@ while (1):
     engkor_dict[eng] = kor
 
 print(engkor_dict)
-# 8. time 모듈을 import 한 후 , ofr 문을 이용하여 1부터 5까지의 숫자를 출력해보자. 각 숫자를 출력한 후 sleep()함수를 이용하여 프로그램을 1초간 멈추게 해보자.
+# 8. time 모듈을 import 한 후 , for 문을 이용하여 1부터 5까지의 숫자를 출력해보자. 각 숫자를 출력한 후 sleep()함수를 이용하여 프로그램을 1초간 멈추게 해보자.
 import time
 
 for i in range(1, 6):
