@@ -98,7 +98,7 @@ for i in range(1, 6):
     print(i, end=" ")
     time.sleep(1)
 
-9.math 모듈을 import 한 후, 실수 값을 입력 받아 ceil() 함수, floor() 함수, trunc() 함수 연산의 결과를 출력해보자.
+#9.math 모듈을 import 한 후, 실수 값을 입력 받아 ceil() 함수, floor() 함수, trunc() 함수 연산의 결과를 출력해보자.
 import math
 
 def ceil(x):
