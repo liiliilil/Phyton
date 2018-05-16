@@ -61,7 +61,6 @@ print("total:", sum)
 engkor_dict = dict()
 
 while (" "):
-
     eng = input("eng:")
     kor = input("kor:")
 
