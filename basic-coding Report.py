@@ -6,16 +6,15 @@ print("두 번째 문자 :", a[1])
 print("마지막 문자:", a[len(a) - 1])
 
 # 2. 문자열을 입력 받아 for 문을 이용하여 개별 문자로 출력해보자. 그리고 for 문을 이용하여 입력 받은 문자ㅕㄹ의 역순으로 개별 문자를 출력해보자.
-st = list(input("문자열:"))
+a = list(input("문자열:"))
 
-for i in range(len(st)):
+for i in range(len(a)):
     print(st[i],end="")
 
 print()
 
-
-for i in range(len(st)-1,-1,-1):
-    print(st[i],end="")
+for i in range(len(a)-1,-1,-1):
+    print(a[i],end="")
 # 3. 0~100 사이의 점수를 입력 받아 입력한 점수가 0~100인 경우 점수에 대한 A,B,C,D,F 등급을 출력하고, 범위에 해당하지 않은 경우 "입력 가능한 점수 범위는 0~100입니다."를 출력해보자. 점수에 대한 등급 판정은 if-elif-else 문을 이용하여 점수가 90~100일 때 "A"이고, 80~89일 때"B", 70~79일 때 "C", 60~69일 때 "D", 0~59일 때 "F"로 판정한다.
 score = int(input("점수 : "))
 if score >= 0 and score <= 100:
